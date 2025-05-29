@@ -4,8 +4,8 @@ import joblib
 import os
 
 # Cargar modelo
-modelo_path = r"C:\Users\fprec\OneDrive\Documentos\MODELO_CREDITO\modelo_morosidad.pkl"
-logo_path = r"C:\Users\fprec\OneDrive\Documentos\MODELO CREDITO\logo.jpg"
+modelo_path = "modelo_morosidad.pkl"
+logo_path = "logo.jpg"
 
 # Estilo
 st.set_page_config(page_title="Easy Credit - Evaluador de Morosidad", layout="centered")
